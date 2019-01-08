@@ -1,0 +1,66 @@
+form{
+	display: inline-block;
+	padding-left: 50px;
+	margin-top: 25px;
+}
+
+h1{
+	text-align: center;
+}
+
+label{
+	color: #040004;
+}
+
+label, input{
+	display: block;
+	font-family: sans-serif;
+}
+
+#contenido{
+	text-align: left;
+}
+
+#informacion{
+	height: 258px;
+}
+
+#txtDireccion{
+	resize: none;
+}
+
+#lblPts{
+	margin-top: -5px;
+}
+
+#txtPtsDisponibles{
+	width: 157px;
+}
+
+#botones{
+	margin: 38px -15px 0 0;
+  	float: right;
+}
+
+.boton{
+  	width: 120px;
+    margin-right: 10px;
+}
+
+.formColumna{
+	float:left;
+	margin: 0 40px 0 35px;
+}
+
+.datos{
+	margin: 0 0 36px 0;
+}
+
+.datos a{
+	color: #4B000F;
+	font-size: 14px;
+}
+
+.error{
+	border: 2px solid #e74c3c;
+}

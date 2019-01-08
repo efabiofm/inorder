@@ -1,0 +1,117 @@
+h2{
+  margin: 0;
+  display: inline-block;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.labelConfigReserva{
+	display: inline-block;
+  font-weight: bold;
+  width: 250px;
+}
+
+form{
+	display: block;
+  	margin-top: 0em;
+  	margin-bottom: 0em;
+}
+
+#domicilio{
+	margin-top: 145px;
+}
+
+#div1{
+  float: left;
+  height: auto;
+  margin-left: 35px;
+  margin-top: 25px;
+  z-index: 1;
+}
+
+#div2{
+	position: relative;
+  float: left;
+  height: auto;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+#botones{
+  float: right;
+  margin: 86px 40px 0 0
+}
+
+.fa-pencil{
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.titulo{
+  font-size: 22px;
+}
+
+
+#contenido{
+  text-align: left;
+}
+
+.formLabel{
+	position: relative;
+	width: 156px;
+	float: left;
+	padding: 5px;
+	color: #040004;
+}
+
+.formInput{
+	position: relative;
+	width: 94px;
+	float: left;
+	padding: 5px;
+	color: #040004;
+}
+
+.funciones label{
+	display: block;
+  color: #040004;
+  margin-bottom: 15px;
+}
+
+input{
+	font-size: 14px;
+	width: 158px;
+  margin-bottom: 10px;
+}
+
+label{
+  margin-bottom: 15px;
+  display: block;
+}
+
+textarea{
+  margin-bottom: 10px;
+  resize: none;
+}
+
+#div2 span{
+  font-weight: bold;
+  padding-right: 80px;
+}
+
+p{
+  width: 380px;
+  margin-bottom: 25px;
+
+}
+
+hr{
+  float: left;
+  height: 290px;
+  margin: 55px 0px 0px -10px;
+}
+
+.redesSociales{
+  left: 171px;
+}

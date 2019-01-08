@@ -1,0 +1,200 @@
+hr{
+  float: left;
+  width: 0px;
+  height: 350px;
+  margin-top: 60px;
+} 
+
+label{
+	display: inline-block;
+	font-weight: bold;
+	width: 300px;
+	color: #040004;
+}
+
+.funciones label {
+  display: block;
+  color: #040004;
+  font-family: sans-serif;
+}
+
+
+
+#accion{
+	font-size: 30px;
+	font-family: 'PoiretOne';
+	color: #c8ff00;
+	display: inline-block;
+	margin: 30px 0 0 50px;
+}
+.agregarInformacion{
+	width: 1024px;
+	font-family: 'PoiretOne';
+
+}
+#contenedorColumnas{
+	height: 340px;
+}
+.primeraColumna, .informacionOrden{
+	color: #ECF0F1;
+}
+.primeraColumna{
+  margin-top: 140px;
+  margin-left: 25px;
+  width: 300px;
+  float: left;
+}
+
+.primeraColumna input, select{
+	margin: 10px 0 35px 0;
+	width: 250px;
+}
+
+#listaPlatos{
+	width: 205px;
+}
+
+#cantidadPlato{
+	width: 35px;
+	text-align: center;
+}
+
+#listaBebidas{
+	width: 205px;
+}
+
+#cantidadBebida{
+	width: 35px;
+	text-align: center;
+}
+#listaPromociones{
+	width: 205px;
+	margin-bottom: 10px;
+}
+#cantidadPromocion{
+	width: 35px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.fa-plus-square{
+	color: black;
+}
+
+.segundaColumna{
+	margin-top: 30px;
+  	margin-left: 25px;
+  	width: 424px;
+  	float: left;
+}
+
+#informacionOrden{
+    margin: 0 0 20px 10px;
+}
+#informacionOrden p{
+	margin: 0 150px 10px 0;
+	display: inline-block;
+	color: #040004;
+	font-family: sans-serif;
+}
+
+#informacionOrden th{
+    text-align: left;
+}
+
+#nombreSalonero{
+	margin-right: 195px;
+	
+}
+
+#tablaProductos {
+	height: 192px;
+	width: 450px;
+	margin: 0 -41px 0 0px;
+	display: inline-block;
+	border: 1px solid #A9A9A9;
+	border-collapse: collapse;
+	float: right;
+	text-align: center;
+}
+
+#tablaProductos thead, tbody{
+	display: block;
+}
+
+#tablaProductos thead{
+	background: #4B000F;
+	color: #ECF0F1;
+}
+
+#tablaProductos th{
+	font-weight: normal;
+	width: 90px;
+}
+
+#tablaProductos tbody{
+	overflow-y: scroll;
+	display: block;
+	border: 2px solid #fff;
+	border-top: none;
+	height: 170px;
+}
+
+#tablaProductos td{
+	height: 26px;
+	width: 90px;
+}
+
+#tablaProductos tbody tr:nth-child(odd){
+	background: #ECF0F1;
+}
+
+#tablaProductos tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+
+#tablaProductos thead th:first-child{
+	width: 60px;
+	padding-left: 10px;
+}
+
+#tablaProductos tbody td:first-child{
+	width: 60px;
+	padding: 0 20px 0 20px;
+}
+
+#tablaProductos thead th:nth-child(2){
+	width: 250px;
+}
+
+#tablaProductos tbody td:nth-child(2){
+	width: 250px;
+}
+
+#tablaProductos thead th:nth-child(4){
+	width: 125px;
+}
+
+#tablaProductos tbody td:nth-child(4){
+	width: 125px;
+}
+
+#tablaProductos thead th:last-child{
+	width: 75px;
+}
+
+#tablaProductos tbody td:last-child{
+	width: 25px;
+}
+
+.fa-trash{
+	cursor: pointer;
+}
+
+#botones2{
+	float: right;
+  	margin: 40px 40px 0 0;
+}
+.itemOculto{
+    display: none;
+}

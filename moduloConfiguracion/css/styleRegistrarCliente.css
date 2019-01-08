@@ -1,0 +1,102 @@
+.funciones{
+	height: 464px;
+}
+
+form{
+	display: inline-block;
+	background: #000;
+	opacity: .9;
+	width: 880px;
+	margin: 0px 25px 25px 70px;
+	height: 420px;
+}
+
+h1{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+label{
+	color: #ECF0F1;
+}
+
+label, input{
+	display: block;
+	font-family: sans-serif;
+}
+
+.formColumna{
+	float:left;
+	margin: 0 35px 0 70px;
+}
+
+.txtInput{
+	margin: 0 0 30px 0;
+}
+
+#calFechaNacimiento::-webkit-inner-spin-button{
+	opacity: 1;
+}
+
+#calFechaNacimiento::-webkit-calendar-picker-indicator{
+	opacity: 1;
+}
+
+#calFechaNacimiento {
+    width: 171px;
+}
+
+#spinEdad::-webkit-inner-spin-button{
+	opacity: 1;
+}
+
+#spinEdad {
+    width: 171px;
+}
+
+#formatoContrasena{
+	position: absolute;
+	margin: 6px 0 0 -45px;
+	padding: 5px;
+	list-style-type: none;
+	font-size: 12px;
+	font-family: sans-serif;
+	background: #C8FF00;
+	border: 1px solid black;
+}
+
+#columnaConfirmacion{
+	margin: 0;
+}
+
+textarea{
+	margin-bottom: 20px;
+	resize: none;
+}
+
+#botones{
+	margin: 5px 20px 0 0;
+  	float: right;
+}
+
+.boton{
+    margin-right: 10px;
+    background: #B9BCBB;
+}
+
+span {
+    display: block;
+}
+
+#msjError{
+ 	position: absolute;;
+    bottom: 65px;
+    right: 547px;
+    color: #ECF0F1;
+}
+
+#instruccion {
+    font-size: 16px;
+    margin-top: 10px;
+    margin: 10px 0 3px 0;
+}

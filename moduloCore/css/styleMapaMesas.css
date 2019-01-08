@@ -1,0 +1,99 @@
+form {
+	margin-bottom: 20px;
+}
+
+table {
+	width: 329px;
+  	height: 152px;
+  	font-family: sans-serif;
+}
+
+table td{
+	color: #040004;
+}
+#otrasMesasDiv select{
+  margin-right: 5px;
+}
+#btnPlatos{
+  cursor: pointer;
+}
+#primeraColumna, #segundaColumna{
+	  position: relative;
+  display: inline-block;
+  width: 365px;
+  height: 282px;
+  margin-left: 59px;
+  margin-top:30px;
+  vertical-align: top;
+  z-index: 1;
+}
+
+#primeraColumna .label, #segundaColumna .label{
+	color: #FA023C;
+  	font-weight: bold;
+  	font-family: 'PoiretOne';
+  	font-size: 25px;
+
+}
+
+#contenido{
+  padding-top: 40px;
+  height: 479px;
+}
+
+#mesasDiv .mesa{
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    position: relative;
+    margin: 16px 16px 16px 19px;
+    border-radius: 5px;
+}
+
+#mesasDiv #mesa9, #mesa10{
+    margin-left: 113px;
+}
+
+#disponible{
+	color: #C8FF00;
+}
+
+#noDisponible{
+	color: #FA023C;
+	margin-left: 18px;
+}
+
+#error{
+  margin: 20px 0 0 50px;
+}
+
+#botones{
+  float: right;
+  margin-top: 70px;
+  margin-right: 70px
+ }
+
+.boton{
+  width: 100px;
+}
+
+.seleccionado{
+	border: solid 2px #4B000F;
+}
+
+.disponible{
+	background-color: #C8FF00;
+}
+
+.noDisponible{
+	background-color: #FA023C;
+}
+
+.border{
+    border: 2px solid #ecf0f1;
+}
+
+#leyenda {
+    position: relative;
+    left: 25px;
+}

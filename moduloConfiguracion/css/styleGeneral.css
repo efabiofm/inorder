@@ -1,0 +1,249 @@
+﻿@font-face{
+	font-family: 'OleoRegular';
+	src: url(../fonts/OleoRegular.TTF);
+}
+
+@font-face { 
+	font-family: 'PoiretOne'; 
+	src: url(../fonts/PoiretOne.TTF);
+}
+
+@font-face { 
+	font-family: 'Janda'; 
+	src: url(../fonts/Janda.TTF); 
+}
+
+html{
+	width: 1024px;
+	height: 666px;
+	margin: 0 auto;
+}
+
+body{
+	width: 1024px;
+	height: 666px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	background-image: url('../imagenes/city.png');
+}
+
+.navegacion{
+	text-align: right;
+	background: #040004;
+	margin: 0 auto;
+	padding: 5px 10px;
+}
+
+.navegacion a{
+	text-decoration: none;
+	color: #ecf0f1;
+	font-size: 16px;
+	padding: 3px 6px;
+}
+
+h1{
+	margin-left: 33.200px;
+	font-size: 30px;
+	color: #FA023C;
+	font-family: 'PoiretOne';
+}
+
+h2{
+	display: block;
+	font-family: 'PoiretOne';
+	color: #4B000F;
+}
+
+#banner{
+	width: 1024px; 
+	height: 120px;
+	background-image: url('../imagenes/banner.png');
+}
+
+#contenido{
+	height: 519px;
+	width: 854px;
+	background: #ecf0f1;
+	float: right;
+}
+
+/********** SIDE MENU **********/
+
+/*quita las viñetas*/
+#cssmenu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*matiene oculto los submenus*/
+#cssmenu ul ul {
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	width: 100%;
+}
+/*hace aparecer el submenu con el puntero encima*/
+#cssmenu ul li:hover > ul {
+	visibility: visible;
+}
+/*posicion de los submenus*/
+#cssmenu ul ul {
+	top: -2px;
+	left: 98%;
+}
+/*estilo del menu*/
+#cssmenu {
+	float: left;
+	width: 170px;
+	height: 504px;
+	background: #040004;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding-top: 15px;
+}
+/*estilo de enlaces*/
+#cssmenu a {
+	display: block;
+	padding: 15px 0 15px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+/*menu principal*/
+#cssmenu ul {
+	width: 170px;
+}
+/*submenu 1*/
+#cssmenu ul ul {
+	width: 200px;
+	border-left: 3px solid #FA023C;
+	z-index: 999999;
+}
+/*submenu 2*/
+#cssmenu ul ul ul{
+	width: 130px;
+}
+/*color de menu con puntero encima*/
+#cssmenu > ul > li:hover a {
+	background: #4B000F;
+	-webkit-transition: all .3s;
+}
+#cssmenu ul li a{
+	border-bottom: none;
+}
+/*ajusta los elementos al contenedor*/
+#cssmenu li {
+	position: relative;
+}
+/*color de submenu con puntero encima*/
+#cssmenu ul ul li:hover > a {
+	background: #FA023C;
+}
+#cssmenu #agregar{
+	width: 130px;
+}
+/*iconos*/
+#cssmenu a .fa{
+	margin-right: 8px;
+	color: #C8FF00;
+}
+
+/********** BOTON *********/
+
+.boton{
+	width: 70px;
+	height: 18px;
+	border: 1px solid #000;
+	display: inline-block;
+	background-color: rgba(65,65,61,0.3);
+	text-align: center;
+	color: #000;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+#botones a{
+	text-decoration: none;
+}
+
+/********** FOOTER **********/
+
+.redesSociales{
+	position: fixed;
+	width: 170px;
+	bottom: 5px;
+	font-size: 26px;
+	color: #ecf0f1;
+	text-align: center;
+}
+
+.redesSociales .fa{
+	margin: 0 5px 0 5px;
+	cursor: pointer;
+}
+
+.fa-facebook-official:hover{
+	color: #337ab7;
+}
+
+.fa-google-plus-square:hover{
+	color: #DD4B39;
+}
+
+.fa-twitter-square:hover{
+	color: #55ACEE;
+}
+
+/********* ALERTS **********/
+
+.oculto{
+	visibility: hidden;
+}
+
+.error{
+	border: 2px solid red;
+}
+
+.rojo{
+	color: red;
+}
+
+#msjError{
+	width: 367px;
+  	height: 20px;
+ 	position: absolute;;
+  	top: 615px;
+  	text-align: center;
+  	margin: 15px 240px 0;
+}
+
+.alerts{
+	width: 1024px;
+  	height: 33px;
+ 	position: absolute;
+  	top: 575px;
+  	text-align: center;
+  	font-size: 16px;
+}
+
+#msjConfirmacion {
+  width: 460px;
+  height: 110px;
+  position: absolute;
+  top: 352px;
+  left: 36%;
+  background-color: #ecf0f1;
+  text-align: center;
+  font-size: 28px;
+  color: rgba(65,65,61,1);
+  border: 1px solid #000;
+  padding-top: 10px;
+}
+
+#msjConfirmacion span{
+	display: block;
+}
+
+.fade{
+  -webkit-filter: blur(15px);
+}

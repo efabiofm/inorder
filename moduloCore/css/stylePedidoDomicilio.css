@@ -1,0 +1,256 @@
+h1{
+    margin-left: 95px;
+}
+
+h2{
+    text-align: center;
+    font-family: PoiretOne;
+}
+
+hr{
+    margin-top: 60px;
+    display: inline-block;
+    float: left;
+    height: 390px;
+}
+
+label{
+	display: inline-block;
+	font-weight: bold;
+	width: 250px;
+}
+
+.funciones label {
+  display: block;
+  color: #040004;
+  font-family: sans-serif;
+}
+
+#accion{
+	font-size: 30px;
+	font-family: 'PoiretOne';
+	color: #c8ff00;
+	display: inline-block;
+	margin: 30px 0 0 50px;
+}
+.agregarInformacion{
+	width: 1024px;
+	font-family: 'PoiretOne';
+}
+
+#contenedorColumnas{
+	height: 449px;
+}
+.primeraColumna, .informacionOrden{
+	color: #ECF0F1;
+}
+.primeraColumna{
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 40px;
+  width: 250px;
+  float: left;
+}
+
+.primeraColumna input, select{
+	margin: 10px 0 35px 0;
+
+}
+
+#listaComidas{
+	width: 188px;
+}
+
+#cantidadPlato{
+	width: 35px;
+	text-align: center;
+}
+
+#listaBebidas{
+	width: 188px;
+}
+
+#cantidadBebida{
+	width: 35px;
+	text-align: center;
+}
+
+#listaPromociones{
+	width: 188px;
+	margin-bottom: 10px;
+}
+#cantidadPromocion{
+	width: 35px;
+	text-align: center;
+}
+.segundaColumna{
+  	margin-left: 25px;
+  	width: 424px;
+  	float: left;
+  	font-weight: bold;
+}
+
+#direccion {
+    margin-top: 95px;
+    margin-left: 90px;
+    position: absolute;
+    width: 280px;
+    resize: none;
+}
+
+.informacionOrden p{
+	margin: 0 150px 10px 0;
+	display: inline-block;
+	color: #040004;
+	font-family: sans-serif;
+}
+
+#puntos{
+	position: absolute;
+}
+
+.formLabel{
+	padding: 3px;
+}
+
+.formInput{
+	position: relative;
+  	float: right;
+}
+
+.infoInput{
+	width: 40px;
+}
+
+#lblPuntosRed {
+    width: 194px;
+    display: inline-block;
+}
+
+#sltRedimir{
+    margin: 0;
+    margin-left: 30px;
+}
+
+#infoCliente tbody{
+    line-height: 25px;
+    text-align: left;
+}
+
+#tablaProductos {
+    height: 187px;
+    width: 450px;
+    margin: 50px 40px 0px 0px;
+    border: 1px solid #A9A9A9;
+    border-collapse: collapse;
+    float: right;
+    text-align: center;
+}
+
+#tablaProductos thead, tbody{
+	display: block;
+}
+
+#tablaProductos thead{
+	background: #4B000F;
+	color: #ECF0F1;
+}
+
+
+#tablaProductos th{
+	font-weight: normal;
+	width: 212px;
+}
+
+thead tr {
+    height: 26px;
+}
+
+#tablaProductos tbody{
+	overflow-y: scroll;
+	border: 2px solid #fff;
+	border-top: none;
+	height: 160px;
+}
+
+#tablaProductos td{
+	height: 26px;
+	width: 215px;
+}
+
+#tablaProductos tbody tr:nth-child(odd){
+	background: #ECF0F1;
+}
+
+#tablaProductos tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+
+#tablaProductos tbody td:first-child{
+	width: 100px;
+}
+
+#tablaProductos thead th:first-child{
+	width: 100px;
+}
+
+#tablaProductos thead th:last-child{
+	width: 75px;
+}
+
+#tablaProductos tbody td:last-child{
+	width: 25px;
+}
+
+#tablaProductos tbody td:nth-child(2) {
+    width: 200px;
+}
+
+#tablaProductos tbody td:nth-child(3) {
+    width: 100px;
+}
+
+#celdaPrecio {
+    width: 55px;
+}
+
+#tablaRedimir{
+    text-align: left;
+    color: black;
+    line-height: 30px;
+}
+
+#celdaTotal {
+    text-align: right;
+}
+
+#infoCliente td {
+    font-weight: normal;
+}
+
+#botones {
+    float: right;
+    margin-right: 39px;
+    margin-top: 20px;
+}
+
+.fa-check-square, .fa-plus-square, .fa-trash{
+	cursor: pointer;
+	color: black;
+}
+
+#msjError{
+    width: 380px;
+    left: 126px;
+}
+
+#msjPuntosInsuficientes{
+    position: relative;
+    bottom: 18px;
+}
+
+#msjRangoInvalido {
+    position: relative;
+    right: 100px;
+    bottom: 18px;
+}

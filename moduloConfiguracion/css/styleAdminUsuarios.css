@@ -1,0 +1,88 @@
+h1{
+	margin-bottom: 15px;
+}
+
+.funciones{
+	height: 446px;
+}
+
+#tituloPrincipal{
+	height: 81px;
+}
+
+#divAgregar{
+    float: right;
+    margin-right: 35px;
+    font-family: 'PoiretOne';
+    font-weight: bold;
+}
+
+#divAgregar a{
+	text-decoration: none;
+	margin-left: 15px;
+	color: #040004;
+}
+
+#tablaUsuarios {
+    margin: 12px 30px;
+    display: block;
+    border-collapse: collapse;
+    border: 1px solid #A9A9A9;
+    height: 367px;
+    overflow: scroll;
+}
+
+#tablaUsuarios td, th{
+	font-weight: normal;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	text-align: center;
+}
+
+#tablaUsuarios th{
+    height: 26px;
+}
+
+#tablaUsuarios #titulo{
+	background: #4B000F;
+	color: #ECF0F1;
+}
+
+#tablaUsuarios tbody{
+	border: 2px solid #fff;
+	overflow-y: scroll;
+}
+
+#tablaUsuarios tbody tr{
+	background: #ECF0F1;
+}
+
+#tablaUsuarios tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+
+tbody tr:hover td{
+	background-color : #C8FF00;
+}
+
+input[type="date"] {
+    width: 124px;
+}
+
+#tablaUsuarios i{
+	font-size: 20px;
+	display: initial;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#tablaUsuarios .inhabilitado{
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.descripcion{
+	font-size: 12px;
+}
+

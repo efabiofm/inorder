@@ -1,0 +1,63 @@
+#contenido{
+  text-align: center;
+}
+
+#marco{
+  display: inline-block;
+  border: 1px dashed black;
+  width: 400px;
+  padding: 15px 0;
+  margin-top: 23px;
+  height: 440px;
+}
+
+#infoRest {
+    width: 345px;
+    height: 136px;
+    margin-left: 25px;
+}
+
+#tablaProductos{
+    margin: 25px 0 20px 8px;
+    display: inline-block;
+    width: 328px;
+}
+
+#tablaProductos th{
+    width: 100px;
+}
+
+td{
+    width: 345px;
+}
+
+#tablaProductos thead, tbody{
+    display: block;
+}
+
+#tablaProductos tbody{
+    overflow-y: scroll;
+    height: 120px;
+}
+
+#tablaTotales{
+  position: relative;
+  left: 167px;
+}
+
+#tablaTotales th{
+    text-align: right;
+  
+}
+
+#tablaTotales td{
+  text-align: right;
+  width: 60px;
+}
+
+.fa-print{
+  cursor: pointer;
+  position: relative;
+  right: 240px;
+  bottom: 14px;
+}

@@ -1,0 +1,111 @@
+h1{
+	margin-bottom: 15px;
+}
+
+h2{
+	display:inline-block;
+	margin: 0 0 10px 45px;
+	font-family: 'PoiretOne';
+}
+
+#txtPuesto{
+	margin-bottom: 20px;
+}
+
+#txtDescripcion{
+	margin-bottom: 55px;
+}
+
+/********** TABLA **********/
+
+#tablaOrdenes{
+    margin-top: 15px;
+    margin-right: 75px;
+    display: inline-block;
+    border: 1px solid #A9A9A9;
+    border-collapse: collapse;
+    float: right;
+    text-align: center;
+    width: 700px;
+}
+
+#tablaOrdenes thead, tbody{
+	display: block;
+}
+
+#tablaOrdenes thead{
+	background: #4B000F;
+	color: #ECF0F1;
+}
+
+#tablaOrdenes th{
+	font-weight: normal;
+	height: 26px;
+}
+
+
+#tablaOrdenes tbody{
+	overflow-y: scroll;
+	border: 2px solid #fff;
+	border-top: none;
+	height: 336px;
+}
+
+#tablaOrdenes td{
+	height: 26px;
+	width: 444px;
+}
+
+#tablaOrdenes tbody tr:nth-child(odd){
+	background: #ECF0F1;
+}
+
+#tablaOrdenes tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+
+#tablaOrdenes tbody td:nth-child(1){
+	width: 166px;
+}
+
+#tablaOrdenes thead th:nth-child(1){
+	width: 166px;
+}
+
+#tablaOrdenes tbody td:nth-child(2){
+	width: 166px;
+}
+
+#tablaOrdenes thead th:nth-child(2){
+	width: 166px;
+}
+
+#tablaOrdenes tbody td:nth-child(3){
+	width: 166px;
+}
+
+#tablaOrdenes thead th:nth-child(3){
+	width: 166px;
+}
+
+#tablaOrdenes tbody td:nth-child(4){
+	width: 166px;
+}
+
+#tablaOrdenes thead th:nth-child(4){
+	width: 166px;
+}
+
+#tablaOrdenes td:nth-child(2) {
+    width: 100px;
+}
+
+#contenido a{
+	color: #040004;
+	text-decoration: none;
+	font-family: 'PoiretOne';
+	font-weight: bold;
+	float: right;
+	margin: 0px 45px 10px 0px;
+}
+

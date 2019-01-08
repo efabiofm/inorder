@@ -1,0 +1,122 @@
+@font-face { 
+	font-family: 'PoiretOne'; 
+	src: url(../fonts/PoiretOne.TTF); 
+}
+
+h1{
+	margin-bottom: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#agregarPlato{
+	float: right;
+	vertical-align: middle;
+	margin: 0px 25px 10px 0px;
+}
+
+#agregarPlato a{
+	text-decoration: none;
+	color: #040004;
+	font-family: 'PoiretOne';
+	font-weight: bold;
+}
+
+#agregarPlato i{
+	color: #040004;
+}
+
+#tablaPlatos {
+    width: 810px;
+    margin: 0px 25px;
+    border-collapse: collapse;
+    border: 1px solid #A9A9A9;
+}
+
+#tablaPlatos td, th{
+	font-weight: normal;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	text-align: center;
+}
+
+#tablaPlatos #titulo{
+	background: #4B000F;
+	color: #ECF0F1;
+}
+
+#tablaPlatos thead, tbody{
+	display: block;
+}
+
+#tablaPlatos th{
+	height: 26px;
+}
+
+thead th:first-child{
+    width: 23px;
+}
+
+thead th:nth-child(2) {
+    width: 100px;
+}
+
+thead th:nth-child(3) {
+    width: 120px;
+}
+
+thead th:nth-child(5) {
+    width: 270px;
+}
+
+thead th:nth-child(7) {
+    width: 90px;
+}
+
+thead th:last-child{
+    width: 90px;
+}
+
+#tablaPlatos tbody{
+	overflow-y: scroll;
+	border: 2px solid #fff;
+	height: 336px;
+}
+
+#tablaPlatos tbody tr{
+	background: #ECF0F1;
+}
+
+#tablaPlatos tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+
+#tablaPlatos tbody td:nth-child(5) {
+    width: 300px;
+}
+
+#tablaPlatos tbody td:nth-child(6) {
+    width: 94px;
+}
+
+#tablaPlatos tbody td:nth-child(7) {
+    width: 90px;
+}
+
+#tablaPlatos i{
+	font-size: 20px;
+	display: initial;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+tbody tr:hover td{
+	background-color : #C8FF00;
+}
+
+.columnaBotones{
+	width: 65px;
+}

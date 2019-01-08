@@ -1,0 +1,232 @@
+#contenido{
+  text-align: left;
+  padding: 25px 30px 0;
+  width: 794px;
+  height: 494px;
+}
+
+h2{
+  margin: 0;
+}
+
+#seccionIzq{
+  float: left;
+  width: 390px;
+}
+
+#seccionDer{
+  float: right;
+}
+
+.etiquetasDiv {
+  float: left;
+  width: 150px;
+  margin-top: 25px;
+}
+
+.etiquetasDiv label{
+  display: block;
+  margin-bottom: 15px;
+}
+
+#otras{
+    margin-bottom: 34px;
+}
+
+#otrasMesas{
+    margin-top: 15px;
+}
+
+.inputsDiv {
+  float: left;
+  width: 180px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.inputsDiv input {
+  margin-bottom: 12px;
+}
+
+/*********** TABLA **********/
+
+#tablaProductos {
+  width: 373px;
+  display: inline-block;
+  border: 1px solid #A9A9A9;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#tablaProductos thead, tbody{
+  display: block;
+}
+
+#tablaProductos thead{
+  background: #4B000F;
+  color: #ECF0F1;
+}
+
+#tablaProductos th{
+  font-weight: normal;
+  width: 212px;
+  height: 26px;
+}
+
+#tablaProductos tbody{
+  overflow-y: scroll;
+  border: 2px solid #fff;
+  border-top: none;
+  height: 122px;
+}
+
+#tablaProductos td{
+  height: 26px;
+  width: 222px;
+}
+
+#tablaProductos tbody tr:nth-child(odd){
+  background: #ECF0F1;
+}
+
+#tablaProductos tbody tr:nth-child(even){
+  background: #c3c3c3;
+}
+
+#tablaProductos tbody td:first-child{
+  width: 80px;
+}
+
+#tablaProductos thead th:first-child{
+  width: 100px;
+}
+
+#tablaProductos thead th:last-child{
+  width: 100px;
+}
+
+#tablaProductos tbody td:last-child{
+  width: 25px;
+}
+
+.fa{
+  cursor: pointer;
+}
+
+#mesasDiv{
+  position: relative;
+  margin-bottom: 25px;
+}
+
+#mesasDiv .mesa{
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  position: relative;
+  margin: 16px 16px 16px 21px;
+  border-radius: 5px;
+}
+
+#mesasDiv #mesa9, #mesa10{
+  margin-left: 113px;
+}
+
+#mesasDiv .fa-chevron-left{
+  margin-left: 71px;
+}
+
+#btnMas, #btnMenos{
+  cursor: pointer;
+}
+
+.defaultBorder{
+  border: solid 2px  #ecf0f1;
+}
+
+.seleccionado{
+  border: solid 2px #4B000F;
+}
+
+#masMesasDiv{
+  width: 385px;
+  height: 270px;
+  position: absolute;
+  background: #ecf0f1;
+  bottom: 10px;
+}
+
+#btnsMasMesas{
+  position: absolute;
+  right: 7.7px;
+  bottom: 4px;
+}
+
+#masMesasDiv .radioMesa{
+  padding-top: 27px;
+}
+
+#txtUsername, #txtPtsDisponibles, #txtNombre{
+  width: 145px;
+  margin-right: 5px;
+}
+
+#txtAddPuntos{
+  width: 180px;
+  margin-right: 5px;  
+}
+
+#sltAgregar{
+    margin-bottom: 15px;
+}
+
+.oculto{
+  visibility: hidden;
+}
+
+.boton {
+    margin-left: 34px;
+}
+
+#interaccion i{
+  font-size: 50px;
+    display: block;
+    margin: 10px 0px 0px 0px;
+    color: #FA023C;
+}
+
+#interaccion span{
+  font-size: 22px;
+}
+
+.intButton {
+  width: 250px;
+  height: 100px;
+  display: inline-block;
+  background-color: rgba(65,90,61,0.3);
+  margin: 34px 30px;
+  text-align: center;
+  color: #000;
+  border: 3px solid #A9A9A9;
+  border-collapse: collapse;
+}
+
+#msjError{
+    width: 287px;
+}
+
+#msjPuntosInsuficientes {
+    position: relative;
+    right: 33px;
+    bottom: 18px;
+}
+
+#usuarioInexistente {
+    position: relative;
+    right: 224px;
+    bottom: 137px;
+    color: red;
+}
+
+.error{
+    border: 1px solid red;
+}

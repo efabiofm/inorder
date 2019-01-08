@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registro</title>
+		<link rel="stylesheet" type="text/css" href="../css/styleGeneralInicio.css">
+		<link rel="stylesheet" type="text/css" href="css/styleRegistrarCliente.css">
+		<link href="../imagenes/miniLogo.png" rel='shortcut icon' type='image/png'>
+	</head>
+	<body>
+	    <div id="cuerpo">
+    		<header>
+    			<nav id="navPrincipal">
+    				<div id="navIzquierda">
+    					<a href="../index.html"> Inicio </a>
+    					<a href="historia.html"> Historia </a>
+    				</div>
+    				<div id="navLogo">
+    					<img src="../imagenes/LogoRestaurante.png" width="200px" height="200px">
+    				</div>
+    				<div id="navDerecha">
+    					<a href="informacion.html"> Información </a>
+    					<a href="menu.html"> Menú </a>
+    				</div>
+    			</nav>
+    		</header>
+    		<section class="funciones">
+    			<form>
+    				<h1> Registro </h1>
+    				<div class="formColumna">
+    					<div class="txtInput">
+    						<label for="txtNombreUsuario"> Usuario </label>
+    						<input type="txt" id="txtNombreUsuario" name="obligatorio">
+    					</div>
+    					<div class="txtInput">
+    						<label for="txtNombre"> Nombre </label>
+    						<input type="txt" id="txtNombre" name="obligatorio">
+    					</div>
+    					<div class="txtInput">
+    						<label for="txt1erApellido"> Primer apellido </label>
+    						<input type="txt" id="txt1erApellido" name="obligatorio">
+    					</div>
+    					<div class="txtInput">
+    						<label for="calFechaNacimiento"> Fecha de nacimiento </label>
+    						<input type="date" id="calFechaNacimiento" name="obligatorio">
+    					</div>
+    				</div>
+    				<div class="formColumna">
+    					<div class="txtInput">
+    						<label for="txtEmail"> Correo electrónico </label>
+    						<input type="txt" id="txtEmail" name="obligatorio">
+    					</div>
+    					<div class="txtInput">
+    						<label for="txt2doNombre"> Segundo nombre (opcional) </label>
+    						<input type="txt" id="txt2doNombre">
+    					</div>
+    					<div class="txtInput">
+    						<label for="txt2doApellido"> Segundo apellido (opcional) </label>
+    						<input type="txt" id="txt2doApellido">
+    					</div>
+    					<div class="txtInput">
+    						<label for="spinEdad"> Edad </label>
+    						<input type="number" id="spinEdad" min="18" max="99" name="obligatorio">
+    					</div>
+    				</div>
+    				<div class="formColumna">
+    					<div class="txtInput">
+    						<label for="txtTelefono"> Teléfono </label>
+    						<input type="txt" id="txtTelefono" name="obligatorio">
+    					</div>
+    					<div class="txtInput">
+    						<label for="txtNacionalidad"> Nacionalidad </label>
+    						<input type="txt" id="txtNacionalidad" name="obligatorio">
+    					</div>
+    					<div class="txtInput">
+    						<label for="txtContrasena"> Contraseña </label>
+    						<input type="password" id="txtContrasena" name="obligatorio">
+    						<ul id="formatoContrasena">
+    							La contraseña debe tener:
+    							<li> - Longitud de 8 caracteres como mínimo. </li>
+    							<li> - Componerse tanto de letras como números. </li>
+    							<li> - Contener al menos un caracter especial. </li>
+    						</ul>
+    					</div>
+    					<div class="txtInput">
+    						<label for="txtConfirmacion"> Confirmar contraseña </label>
+    						<input type="password" id="txtConfirmacion" name="obligatorio">
+    					</div>
+    				</div>
+    				<div id="botones">
+    		            <a href="#">
+    		                <div class="boton" id="btnRegistrarCliente">
+    		                   	<span>Registrar</span>
+    		                </div>
+    		            </a>
+    		            <a href="#">
+    		                <div class="boton" id="btnCancelarCliente">
+    		                   	<span>Cancelar</span>
+    		                </div>
+    		            </a>
+    		        </div>
+    			</form>
+    	        <div id="msjError">
+                   <span>
+                      Por favor complete los espacios en <span class="rojo">rojo</span>
+                   </span>
+                </div>
+    		</section> <!-- cierra .funciones -->
+    	</div> <!-- cierra #cuerpo -->
+    	<div id='msjConfirmacion'>
+            <span>¡Registro exitoso!</span>
+            <span id="instruccion">Se redirigirá a la página de ingreso para que inicie sesión.</span>
+            <a href="#">
+            <div class="boton" id="btnContinuar">
+                <span>Continuar</span>
+            </div>
+            </a>
+        </div>
+        <script type="text/javascript" src="../jquery.js"></script>
+	    <script type="text/javascript" src="js/logicRegistrarCliente.js"></script>
+	</body>
+</html>

@@ -1,0 +1,134 @@
+h3{
+	text-align: center;
+	margin: 0 auto;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+button{
+	margin: 0 0 0 5px;
+	width: 25px;
+	height: 19px;
+	background-color: rgba(65,65,61,0.1);
+}
+
+a{
+    text-decoration:none;
+}
+.estadoOrdenes{
+	background-color: rgba(65,65,61,0.3);
+	color: #040004;
+	font-size: 16px;
+	display: inline-block;
+	width: 416px;
+	margin: -1px 0 10px 200px;
+	border: 1px solid;
+	border-color: #040004;
+	padding-left: 35px;
+}
+#encabezadoOrdenes{
+	display: inline-block;
+	background-color: #FA023C;
+	border: 1px solid;
+	border-color: #040004;
+	color: #ecf0f1;
+	font-size: 16px;
+	margin: 20px 371px 0px 200px;
+	width: 451px;
+}
+#tablaEstadoOrdenes th{
+	padding-right: 15px;
+	font-weight: normal;
+}
+#tablaEstadoOrdenes td{
+	text-align: center;
+}
+.ordenesActivas{
+	color: #040004;
+	font-size: 16	px;
+	width: 615px;
+	height: 330px;
+	overflow-y: auto;
+}
+.tableroOrdenes thead{
+	display: none;
+}	
+.tableroOrdenes{
+	width: 157px;
+	height: 130px;
+	border-collapse:collapse;
+}
+.icono{
+    width: 38px;
+}
+.orden{
+	margin: 20px 20px 0px 20px;
+	border: 1px solid;
+	border-color: #040004;
+	width: 157px;
+	height: 130px;
+	float: left;
+}
+
+.encabezado{
+	background-color: #4B000F;
+	padding: 0px;
+	margin: 0 0 0 0;
+	border-collapse: collapse;
+	color: #ecf0f1;
+}
+.col1{
+	width: 100px;
+}
+.col3{
+	width: 40px;
+}
+#reservaciones{
+	margin: -310px 20px 0 0;
+	height: 374px;
+	width: 203px;
+	float: right;
+}
+
+.tbodyOrdenesActivas{
+    width:100%;
+    height:100%;
+}
+#tablaReservaciones{
+    width: 203px;
+}
+#tablaReservaciones tbody tr:nth-child(odd){
+	background: #ECF0F1;
+}
+
+#tablaReservaciones tbody tr:nth-child(even){
+	background: #C3C3C3;
+}
+#encabezadoReservaciones{
+	background-color: #FA023C;
+	color: #ecf0f1;	
+	width: 201px;
+	border: 1px solid #040004; 
+	border-bottom: none;
+}
+#tablaReservaciones thead{
+	background: #4B000F;
+	color: #ECF0F1;
+	border: 1px solid #040004;
+}
+
+#tablaReservaciones th{
+	font-weight: normal;
+}
+#encabezadoMesa{
+	padding: 0px 10px;
+}
+#tablaReservaciones td{
+	height: 25px;
+	text-align: center;
+}
+
+#tablaReservaciones tbody{
+	height: 375px;
+	overflow-y: auto;
+	border: 1px solid #040004;
+}

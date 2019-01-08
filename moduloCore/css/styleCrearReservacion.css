@@ -1,0 +1,161 @@
+hr{
+	width: 0px;
+	height: 326px;
+	display: inline-block;
+	float: left;
+}
+
+table{
+	height: 229px;
+	width: 100%;
+	text-align: left;
+}
+
+.columna{
+	float: left;
+	margin-top: 10px;
+}
+
+#primeraColumna{
+	width: 170px;
+	height: 269px;
+	margin-left: 17px;
+	text-align: left;
+}
+
+#primeraColumna form{
+	float: left;
+	margin-top: 25px;
+}
+
+#primeraColumna input{
+	display: block;
+}
+
+#hora{
+    margin-top: 10px;
+    width: 125px;
+}
+
+#personas{
+    margin-top: 10px;
+    width: 125px;
+    
+}
+
+input#fecha {
+    margin-top: 10px;
+    width: 125px;
+}
+
+
+#btnConsultar {
+    margin-top: 85px;
+    width: 125px;
+}
+
+#textoConsulta {
+    margin-top: 16px;
+    display: block;
+    font-size: 14px;
+    width: 165px;
+    text-align: justify;
+}
+
+#segundaColumna{
+	width: 383px;
+	height: 269px;
+}
+
+#labelMesas {
+	margin-left: 18px;
+}
+
+#mesasDiv .mesa{
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	position: relative;
+	margin: 16px 16px 16px 21px;
+	border-radius: 5px;
+}
+
+#leyenda{
+	text-align: center;
+}
+
+#disponible{
+	color: #C8FF00;
+}
+
+#noDisponible{
+	color: #FA023C;
+	margin-left: 18px;
+}
+
+#alert1{
+	top: 65px;
+	text-align: center;
+}
+
+#alert2{
+	top: 60px;
+	text-align: center;
+}
+
+#alert2 span{
+	width: 382px;
+	position: absolute;
+	right: 5px
+}
+
+#terceraColumna{
+	width: 241px;
+	height: 324px;
+	margin-left: 25px;
+}
+
+#otrasMesas{
+	width: 170px;
+	margin-bottom: 15px;
+}
+
+#botones{
+	display: inline-block;
+	margin: 73px 0 0 47px;
+}
+
+.alerts{
+	width: 382px;
+ 	position: relative;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.info{
+    font-weight: bold;
+}
+
+.button{
+	margin-left: 25px;
+	float: left;
+	display: inline-block;
+}
+
+.seleccionado{
+	border: solid 2px #4B000F;
+}
+
+.disponible{
+	background-color: #C8FF00;
+}
+
+.noDisponible{
+	background-color: #FA023C;
+}
+
+.border{
+    border: 2px solid #ecf0f1;
+}

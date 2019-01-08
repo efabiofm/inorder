@@ -1,0 +1,29 @@
+table{
+	height: 304px;
+	width: 557px;
+}
+
+td{
+	font-size: 16px;
+	color: #ECF0F1;
+	font-family: sans-serif;
+	vertical-align: middle;
+}
+
+#caja{
+	display: inline-block;
+	background: #000;
+	opacity: .9;
+	width: 580px;
+	height: 391px;
+	margin: auto;
+	padding: 0px 28px;
+	margin-top: 15px;
+}
+
+.dato{
+	font-family: 'PoiretOne';
+	color: #C8FF00;
+	font-size: 23px;
+	text-align: right;
+}

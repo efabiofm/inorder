@@ -1,0 +1,122 @@
+#contenido{
+    text-align: center;
+}
+
+#colaPlatos{
+	display: inline-block;
+	border: 1px solid #A9A9A9;
+	border-collapse: collapse;
+	width: 750px;
+}
+
+#colaPlatos thead, tbody{
+	display: block;
+}
+
+#colaPlatos thead{
+	background: #4B000F;
+	color: #ECF0F1;
+}
+
+#colaPlatos th{
+	font-weight: normal;
+	height: 26px;
+}
+
+#colaPlatos tbody{
+	overflow-y: scroll;
+	border: 2px solid #fff;
+	border-top: none;
+	height: 336px;
+}
+
+#colaPlatos td{
+	height: 26px;
+	width: 210px;
+}
+/*
+#colaPlatos tbody tr:hover td{
+	background-color : #C8FF00;
+}
+*/
+#colaPlatos thead th:first-child {
+    width: 60px;
+}
+
+#colaPlatos thead th:nth-child(2) {
+    width: 88px;
+    padding-right: 5px;
+}
+
+#colaPlatos thead th:nth-child(3) {
+    width: 190px;
+    padding-right: 30px;
+}
+
+#colaPlatos thead th:nth-child(5) {
+    width: 261px;
+}
+
+#colaPlatos tbody tr:nth-child(odd){
+	background: #ECF0F1;
+}
+
+#colaPlatos tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+
+#colaPlatos tbody td:first-child {
+    width: 65px;
+}
+
+#colaPlatos tbody td:nth-child(2) {
+    width: 85px;
+}
+
+#colaPlatos tbody td:nth-child(4) {
+    width: 100px;
+}
+
+#colaPlatos tbody td:last-child {
+    width: 100px;
+}
+
+#colaPlatos i{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form{
+    float: right;
+    margin-top: 25px;
+    margin-right: 51px;
+}
+
+#txtPendientes{
+    background: #FF5050;    
+}
+
+#txtListos{
+    background: #FFFF66;
+}
+
+#txtEntregados{
+    background: #00CC00;
+}
+
+#txtTransito{
+    background: #3399FF;
+}
+
+input[type="text"]{
+    width: 25px;
+    text-align: center;
+}
+
+.color{
+    border: 1px solid black;
+    margin-right: 5px;
+}
+.itemOculto{
+    display: none;
+}

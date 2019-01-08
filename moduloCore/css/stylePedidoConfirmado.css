@@ -1,0 +1,34 @@
+#contenido{
+	text-align: center;
+}
+
+h2 {
+  margin: 0 55px;
+}
+
+span {
+  display: block;
+}
+
+#txtNumOrden {
+  margin: 62px auto 46px auto;
+  font-size: 20px;
+}
+
+#numOrden {
+  color: #FA023C;
+  font-size: 100px;
+}
+
+#telefono {
+    display: inline-block;
+}
+
+#botones {
+  margin: 46px 55px 0px 0px;
+  float: right;
+}
+
+#imprimirRecibo {
+  margin-right: 20px;
+}

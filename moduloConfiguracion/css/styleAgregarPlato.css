@@ -1,0 +1,59 @@
+.contenedorConfiguracion{
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.listaConfiguracion{
+	list-style-type: none;
+}
+.listaConfiguracion li{
+	margin: 20px;
+	background-color: #FA023C;
+	text-align: center;
+	padding: 8px;
+	color: #ecf0f1;
+}
+.listaConfiguracion a{
+	text-decoration: none;
+	color: #040004;
+}
+.contenedorTabla{
+	overflow-y: auto;
+}
+.tabla{
+	float: left;
+	text-align: center;
+	margin: 30px 0 0 70px;
+	border: 1px solid #A9A9A9;
+	border-collapse: collapse;
+}
+.tabla thead{
+	background: #c3c3c3;
+	color: #ECF0F1;
+	display: none;
+}
+.tabla th, td{
+	padding: 2px;
+	border: 1px solid #A9A9A9;
+}
+.tabla tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+.columna1{
+	width: 286px;
+	height: 28px;
+}
+.columna2{
+	width: 400px;
+}
+.columna2 select, .texto{
+	width: 99%;
+	height: 99%;
+}
+#btnGuardar{
+    float: right;
+    margin: 20px 86px 0 0;
+}
+
+textarea{
+    resize: none;
+}

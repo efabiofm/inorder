@@ -1,0 +1,134 @@
+@font-face { 
+	font-family: 'PoiretOne'; 
+	src: url(../fonts/PoiretOne.TTF); 
+}
+
+h1{
+	margin-bottom: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#agregarMesa{
+	float: right;
+	vertical-align: middle;
+	margin: 0px 25px 10px 0px;
+}
+
+#agregarMesa a{
+	text-decoration: none;
+	color: #040004;
+	font-family: 'PoiretOne';
+	font-weight: bold;
+}
+
+#agregarMesa i{
+	color: #040004;
+}
+
+#tablaMesas {
+    width: 810px;
+    margin: 0px 25px;
+    border-collapse: collapse;
+    border: 1px solid #A9A9A9;
+}
+
+#tablaMesas td, th{
+	font-weight: normal;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	text-align: center;
+}
+
+#tablaMesas #titulo{
+	background: #4B000F;
+	color: #ECF0F1;
+}
+
+#tablaMesas thead, tbody{
+	display: block;
+}
+
+#tablaMesas th{
+	height: 26px;
+}
+
+#tablaMesas tbody{
+	overflow-y: scroll;
+	border: 2px solid #fff;
+	height: 336px;
+}
+
+#tablaMesas tbody tr{
+	background: #ECF0F1;
+}
+
+#tablaMesas tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+
+#tablaMesas tbody td:first-child{
+	width: 50px;
+}
+
+#tablaMesas tbody td:nth-child(2){
+	width: 50px;
+}
+
+tbody td:nth-child(3) {
+    width: 65px;
+}
+
+tbody td:nth-child(4) {
+    width: 140px;
+}
+
+tbody tr:hover td{
+	background-color : #C8FF00;
+}
+
+thead th:nth-child(1) {
+    width: 0px;
+}
+
+thead th:nth-child(2) {
+    width: 70px;
+}
+
+thead th:nth-child(3) {
+    width: 1px;
+}
+
+thead th:nth-child(4) {
+    width: 160px;
+}
+
+thead th:nth-child(5) {
+    width: 285px;
+}
+
+thead th:nth-child(6) {
+    width: 56px;
+}
+
+thead th:nth-child(7) {
+    width: 87px;
+}
+
+#tablaMesas i{
+	font-size: 20px;
+	display: initial;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+select {
+    width: 90px;
+}
+
+.listaTipos{
+    width: 179px;
+}

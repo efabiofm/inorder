@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Recuperación de contraseña</title>
+		<link rel="stylesheet" type="text/css" href="../css/styleGeneralInicio.css">
+		<link rel="stylesheet" type="text/css" href="css/styleInicioSesion.css">
+		<link href="../imagenes/miniLogo.png" rel='shortcut icon' type='image/png'>
+	</head>
+	<body>
+		<div id="cuerpo">
+			<header>
+				<nav id="navPrincipal">
+					<div id="navIzquierda">
+						<a href="../index.html"> Inicio </a>
+						<a href="../moduloConfiguracion/historia.html"> Historia </a>
+					</div>
+					<div id="navLogo">
+						<img src="../imagenes/LogoRestaurante.png" width="200px" height="200px">
+					</div>
+					<div id="navDerecha">
+						<a href="../moduloConfiguracion/informacion.html"> Información </a>
+						<a href="../moduloConfiguracion/menu.html"> Menú </a>
+					</div>
+				</nav>
+			</header>
+			<section id="funciones">
+				<div id="caja">
+					<h1>Recuperación de contraseña</h1>
+					<form id="formulario">
+						<span id="indicacion">Por favor ingrese su nombre de usuario o su correo electrónico registrado para poder enviarle una clave temporal.</span>
+    					<div class="datos">
+    						<label for="txtUsuario">Usuario</label>
+    						<input class="input" type="text" id="txtUsuario">
+    					</div>	
+    					<div class="datos">
+    						<label for="txtEmail">E-mail</label>
+    						<input class="input" type="text" id="txtEmail">
+    					</div>
+						<div id="botonesRecuperacion">
+			                  <div class="boton" id="btnEnviar">
+			                     <span>Enviar</span>
+			                  </div>
+			                  <div class="boton" id="btnCancelar">
+			                     <span>Cancelar</span>
+			                  </div>
+			            </div>
+					</form>	
+				</div>
+				<div id="msjError">
+	               <span>
+	                  Por favor llene alguno de los espacios en <span class="rojo">rojo</span>
+	               </span>
+	            </div>
+			</section>
+		</div> <!-- cierra #cuerpo -->
+		<div id='msjConfirmacion'>
+	        <span>Su contraseña temporal ha sido enviada a su correo electrónico</span>
+	        <a href="#">
+	            <div class="boton" id="btnAceptar">
+	                <span>Aceptar</span>
+	            </div>
+	        </a>
+	    </div>
+	    <script type="text/javascript" src="../jquery.js"></script>
+		<script type="text/javascript" src="js/logicRecuperarContrasena.js"></script>
+	</body>
+</html>

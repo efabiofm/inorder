@@ -1,0 +1,74 @@
+#contenido{
+	text-align: center;
+}
+
+#slideShows{
+	height: 178px;
+	margin: 0 auto;
+  	display: inline-block;
+}
+
+#spanBebidas{
+	margin-top: 0 auto
+}
+
+#interaccion i{
+	font-size: 50px;
+  	display: block;
+  	margin: 10px 0px 0px 0px;
+  	color: #FA023C;
+}
+
+#interaccion span{
+	font-size: 22px;
+}
+
+.slideShow{
+	display: inline-block;
+  	float: left;
+}
+
+.slideShowCase{
+  	display: inline-block;
+  	float: left;
+  	margin: 0px 84px;
+  	position: relative;
+}
+
+.slideShow img {
+    padding: 3px;
+    border: 1px gray solid;
+    background-color: lightgray;
+}
+
+.slideShowCase span{
+	position: absolute;
+	display: block;
+	top: 135px;
+	right: 46px;
+	background: linear-gradient(to right, rgba(65,61,61,1), rgba(65,61,61,0));
+	width: 125px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #ecf0f1;
+	font-weight: bold;
+	padding-left: 8px;
+	margin-left: 41px;
+	text-align: left;
+}
+
+.intButton {
+	border: 3px solid #A9A9A9;
+    border-collapse: collapse;
+	width: 250px;
+	height: 100px;
+	display: inline-block;
+	background-color: rgba(65,90,61,0.3);
+	margin: 0px 45px;
+	text-align: center;
+	color: #000;
+}
+
+a{
+    text-decoration: none;
+}

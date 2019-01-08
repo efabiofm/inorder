@@ -1,0 +1,117 @@
+h3{
+	text-align: center;
+	margin: 0 auto;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+#encabezadoEstadisticas{
+    float: left;
+    background-color: #FA023C;
+    border: 1px solid;
+    border-color: #040004;
+    color: #ecf0f1;
+    font-size: 16px;
+    margin: 20px 371px 0px 15px;
+    width: 469px;
+}
+.estadisticas{
+    background-color: rgba(65,65,61,0.3);
+    float: left;
+    list-style-type: none;
+    width: 454px;
+    padding: 10px 5px 0 10px;
+    -webkit-column-count: 2;
+    margin: -1px 0 0 15px;
+    border: 1px solid;
+    font-size: 16px;
+}
+.itemsEstadisticas{
+	margin-bottom: 20px;
+}
+#contenedorGrafico{
+	margin: 0 0 0 630px; 
+}
+#moneda{
+	font-family: Georgia;
+	font-size: 12px;
+}
+#linea1{
+	margin-right: 20px;
+	font-size: 16px;
+}
+#linea2{
+	margin-right: 75px;
+	font-size: 16px;
+}
+#linea3{
+	margin-right: 76px;
+	font-size: 16px;
+}
+#linea4{
+	margin-right: 50px;
+	font-size: 16px;
+}
+#encabezadoOrdenes{
+    display: inline-block;
+    background-color: #FA023C;
+    border: 1px solid;
+    border-color: #040004;
+    color: #ecf0f1;
+    font-size: 16px;
+    margin: 20px 371px 0px 15px;
+    width: 469px;
+}
+.estadoOrdenes{
+	background-color: rgba(65,65,61,0.3);
+    color: #040004;
+    font-size: 16px;
+    display: inline-block;
+    width: 434px;
+    margin: -1px 530px 10px 15px;
+    border: 1px solid;
+    border-color: #040004;
+    padding-left: 35px
+}
+#tablaEstadoOrdenes th{
+	padding-right: 15px;
+	font-weight: normal;
+}
+#tablaEstadoOrdenes td{
+	padding-right: 15px;
+	font-weight: normal;
+	text-align: center;
+}
+.contenedorTabla{
+	height: 200px;
+	width: 785px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.saloneros{
+	float: left;
+	text-align: center;
+	margin: 30px 0 0 70px;
+	border: 1px solid #A9A9A9;
+	border-collapse: collapse;
+	display: inline-block;	
+}
+.saloneros thead{
+	background: #4B000F;
+	color: #ECF0F1;
+}
+.saloneros th{
+	font-weight: normal;
+}
+.saloneros th, td{
+	padding: 5px;
+}
+.saloneros tbody{
+    border: 2px solid #fff;
+}
+.saloneros tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+.saloneros thead th:first-child{
+	width: 180px;
+}

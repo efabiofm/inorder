@@ -1,0 +1,110 @@
+h1{
+	margin-bottom: 15px;
+}
+
+h2{
+	display:inline-block;
+	margin: 0 0 10px 45px;
+	font-family: 'PoiretOne';
+}
+
+#txtPuesto{
+	margin-bottom: 20px;
+}
+
+#txtDescripcion{
+	margin-bottom: 55px;
+}
+
+/********** TABLA **********/
+
+#tablaPuestos{
+	margin-right: 50px;
+	display: inline-block;
+	border: 1px solid #A9A9A9;
+	border-collapse: collapse;
+	float: right;
+	text-align: center;
+	width: 750px;
+}
+
+#tablaPuestos thead, tbody{
+	display: block;
+}
+
+#tablaPuestos thead{
+	background: #4B000F;
+	color: #ECF0F1;
+}
+
+#tablaPuestos th{
+	font-weight: normal;
+	height: 26px;
+}
+
+#celdaNombre {
+    width: 90px;
+}
+
+#celdaDescripcion {
+    width: 465px;
+}
+
+#tablaPuestos tbody{
+	overflow-y: scroll;
+	border: 2px solid #fff;
+	border-top: none;
+	height: 336px;
+}
+
+#tablaPuestos td{
+	height: 26px;
+	width: 444px;
+}
+
+#tablaPuestos tbody tr:nth-child(odd){
+	background: #ECF0F1;
+}
+
+#tablaPuestos tbody tr:nth-child(even){
+	background: #c3c3c3;
+}
+
+#tablaPuestos tbody td:first-child{
+	width: 100px;
+}
+
+#tablaPuestos thead th:first-child{
+	width: 105px;
+}
+
+#tablaPuestos thead th:last-child{
+	width: 41px;
+}
+
+#tablaPuestos tbody td:last-child{
+	width: 80px;
+	font-size: 20px;
+}
+
+tbody tr:hover td{
+	background-color : #C8FF00;
+}
+
+#tablaPuestos td:nth-child(2) {
+    width: 100px;
+}
+
+#contenido a{
+	color: #040004;
+	text-decoration: none;
+	font-family: 'PoiretOne';
+	font-weight: bold;
+	float: right;
+	margin: 0px 45px 10px 0px;
+}
+
+#contenido i{
+	margin: 0 5px;
+	cursor: pointer;
+}
